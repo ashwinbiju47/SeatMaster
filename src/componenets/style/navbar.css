@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 64px;
+  padding: 0 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.buttons button {
+  border: none;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  color: #606060;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 16px;
+}
+.buttons #github{
+  margin-right: 20px;
+}
+.userProfile {
+  display: flex;
+  align-items: center;
+}
+
+.userProfile img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.userProfile h3{
+  padding: 0px;
+  margin: 0px 0px;
+  font-family: "Poppins-Regular";
+  font-weight: bold;
+}

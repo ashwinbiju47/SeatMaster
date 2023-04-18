@@ -1,0 +1,21 @@
+.userProfile {
+    margin-left: 0%;
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+.userProfile img {
+    margin-left: 0%;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.userProfile h3 {
+  margin: 0;
+  font-family: "Poppins-Regular";
+  font-weight: 400;
+  font-size: medium;
+}

@@ -1,0 +1,109 @@
+.quotes {
+  margin-left: 40px;
+}
+
+.quotes h2 {
+  margin: 0%;
+  font-family: "Poppins-Regular";
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+.quotes #arrange {
+  margin-top: 20px;
+}
+
+.quotes #seamlesly {
+  margin: 0%;
+  margin-bottom: 20px;
+  font-family: "Poppins-Regular";
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+
+.quotes #exam {
+  color: #35524e;
+}
+
+.quotes p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  color: #606060;
+  font-family: "Poppins-Regular";
+  font-weight: 400;
+}
+.card {
+    margin-top: 20px;
+    margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 2px solid #10b399;
+  padding: 20px;
+  width: 180px;
+  height: 150px;
+  background-color: #c6fff7;
+}
+
+.Ecard {
+    margin-top: 20px;
+    margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 2px solid #10b399;
+  padding: 20px;
+  width: 180px;
+  height: 150px;
+  background-color: #fff;
+}
+
+.card .Ecard h3 {
+  margin-bottom: 10px;
+  font-family: "Poppins-Bold";
+  font-weight: 600;
+}
+
+.card button{
+  font-family: "Poppins-Bold";
+  font-weight: 400;
+  background-color: #10b399;;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.Ecard button{
+  font-family: "Poppins-Bold";
+  font-weight: 400;
+  background-color: #10b399;;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.yourExams p{
+    margin: 40px;
+    font-weight: 700;
+}
+
+.exam-container {
+    display: flex;
+    flex-direction: row;
+}

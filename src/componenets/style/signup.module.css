@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: "Poppins-Bold.ttf";
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+
+.signup {
+  background-image: url("../../images/intropageclipart.png");
+  background-size: fit;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Use min-height instead of height */
+  background-color: #fff;
+}
+
+.logo{
+  height: 28px;
+  margin: 30px;
+  margin-top: 30px;
+  padding-top:10px ;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.card {
+  margin-left: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  height: auto; /* Use auto instead of fixed height */
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.intro2 {
+  margin-top: 0%;
+  font-family: "Poppins-Light";
+  color: #606060;
+  font-weight: 300;
+  text-align: left; /* Use text-align instead of align-items */
+}
+
+.intro {
+  margin: 0%;
+  font-family: "Poppins-Regular";
+  font-style: normal;
+  text-align: left; /* Use text-align instead of align-items */
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.formGroup label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.formGroup input {
+  border-color: #01b399;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 8px 16px; /* Reduce the padding for smaller screens */
+  font-size: 16px;
+  background-color: #ffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.formGroup input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0077ff;
+}
+
+button[type="submit"] {
+  height: 100%;
+  padding: 8px 16px; /* Reduce the padding for smaller screens */
+  width: 100%;
+  max-width: 150px; /* Use max-width instead of fixed width */
+  border: none;
+  color: #fff;
+  background-color: #01b399;
+  border-radius: 20px;
+  font-family: "Poppins-Bold";
+  font-weight: bold;
+  font-size: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#signinbutton {
+  background-color: white;
+  color: #bfbfbf;
+  border-style: solid;
+  border-color: #bfbfbf;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin-left: 10px;
+}
+
+.inorup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 1rem; /* Use bottom instead of top */
+  right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  /* Styles for screens wider than 768px */
+  .card {
+    padding: 48px;
+  }
+
+  .formGroup input {
+    padding: 12px 24px;
+  }
+
+  button[type="submit"] {
+    padding: 12px 24px;
+    max-width: 200px;
+  }
+
+  .inorup {
+    top: 1rem;
+    bottom: auto;
+  }
+}

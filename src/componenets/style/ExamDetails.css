@@ -1,0 +1,36 @@
+.examDetails {
+    font-family: "Poppins-Regular";
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.examDetails h2{
+    margin: 20px;
+    font-size: 28px;
+}
+
+.examDetails button{
+    padding-left: 100px;
+    text-align: left;
+    margin-top: 20px;
+     width: 350px;
+    height: 40px;
+  border: none;
+  color: #fff;
+  background-color: #01b399;
+  border-radius: 20px;
+  font-family: poppins;
+  font-weight: bold;
+  font-size: auto;
+  cursor: pointer;
+}
+
+.examDetails #section21{
+    padding: 0px;
+    margin-top: 100px;
+    text-align: center;
+}
+.examDetails #section22{
+    padding: 0px;
+    text-align: center;
+}

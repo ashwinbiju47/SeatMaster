@@ -1,0 +1,39 @@
+.card2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background-color: #f3f3f3;
+  padding: 24px;
+  border-radius: 8px;
+}
+.card2 h2 {
+  font-family: "Poppins-Regular";
+  font-weight: 900;
+}
+.card2 h3 {
+  margin: 5px;
+  font-family: "Poppins-Regular";
+  font-weight: 400;
+}
+.card2 button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  background-color: #01b399;
+  border-radius: 20px;
+  font-family: "Poppins-Regular";
+  font-weight: bold;
+  font-size: auto;
+  margin: 20px;
+  cursor: pointer;
+}
